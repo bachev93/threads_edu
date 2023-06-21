@@ -1,0 +1,9 @@
+[Unit]
+Description=Super simple daemon
+
+[Service]
+Type=simple
+ExecStart=/opt/simple_daemon/simple_daemon
+
+[Install]
+WantedBy=multi-user.target

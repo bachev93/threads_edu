@@ -1,1 +1,1 @@
-add_executable(daemon main.cpp)
+add_executable(simple_daemon main.cpp)
